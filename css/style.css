@@ -337,3 +337,81 @@ Footer section Style Start
 /* ------------------------
 Footer section Style end 
 --------------------------*/
+@media only screen and (width:393px) {
+    .hero-section {
+        width: 100%;
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+    }
+
+    .info-area {
+        width: 100%;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .info-area h1 {
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .info-area p {
+        text-align: center;
+        width: 90%;
+    }
+
+    .image-area {
+        width: 100%;
+        padding: 10px;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-area img {
+        width: 90%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        justify-items: center;
+        grid-row-gap: 20px;
+    }
+
+    .logos img {
+        width: 65px;
+    }
+
+    .car-collections {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cars {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .car img {
+        width: 100%;
+    }
+
+    .feature-car {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: center;
+        padding: 20px;
+    }
+}
