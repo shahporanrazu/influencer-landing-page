@@ -65,6 +65,9 @@ Global Header Style started
 /* ------------------------
 Global Header Style End 
 --------------------------*/
+/* ------------------------
+Hero section Style Start 
+--------------------------*/
 .hero-section {
     width: 1140px;
     height: 70vh;
@@ -129,3 +132,208 @@ Global Header Style End
     transform: scale(1.3);
     transition: transform 1.10s;
 }
+
+/* ------------------------
+Hero section Style End 
+--------------------------*/
+/* ------------------------
+Brand section Style Start 
+--------------------------*/
+.brand-logo {
+    width: 1140px;
+    margin: auto;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 5%;
+}
+
+hr {
+    border: 0.2px solid #C0CCDA;
+    opacity: 30%;
+}
+
+/* ------------------------
+Brand section Style End 
+--------------------------*/
+/* ------------------------
+Car Collection section Style Start 
+--------------------------*/
+.car-collections {
+    padding: 50px 0px;
+    width: 1140px;
+    margin: auto;
+}
+
+.car-collections h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.car {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.car img {
+    width: 100%;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.car h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+
+}
+
+.car h3 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.filled-star,
+.half-filled-star {
+    color: #FB8200;
+    font-size: 12px;
+    margin: 0;
+}
+
+.car span {
+    font-size: 14px;
+}
+
+.car p {
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    padding-right: 20%;
+}
+
+.see-more {
+    margin-top: 30px;
+    text-align: end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* ------------------------
+Car Collection section Style end 
+--------------------------*/
+/* ------------------------
+Feature Car section Style Start 
+--------------------------*/
+.feature-car {
+    padding: 50px 0px;
+    width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.feature-image img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.feature-info {
+    margin: auto;
+}
+
+.feature-info h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.feature-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+.feature-info button {
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0px;
+
+}
+
+.feature-info button:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+/* ------------------------
+Feature Car section Style End 
+--------------------------*/
+/* ------------------------
+Footer section Style Start 
+--------------------------*/
+.footer {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #0A0826;
+    color: #D9DBE1;
+}
+
+.footer h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px;
+}
+
+.social-icon i {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #D3D3D3;
+    color: #0A0826;
+    padding: 10px;
+}
+
+/* ------------------------
+Footer section Style end 
+--------------------------*/
