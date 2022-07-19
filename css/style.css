@@ -1,0 +1,63 @@
+/* font-family: 'Koulen', cursive;
+font-family: 'Poppins', sans-serif; */
+/* 
+-------------------------------------
+Global Style code started from here 
+--------------------------------------
+*/
+body {
+    /* width: 1140px; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Koulen', cursive;
+}
+
+/* 
+-------------------------------------
+Global Style code end 
+--------------------------------------
+*/
+.global-header {
+    background-color: #FFB6C1;
+    padding: 20px 0px 5px 0px;
+
+}
+
+.nav-bar {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navigation-menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    padding-right: 30px;
+    margin-top: -7px;
+
+}
+
+.navigation-menu ul li:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+    color: #E02C6D;
+}
+
+/* ------------------------
+Global Header Style End 
+--------------------------*/
